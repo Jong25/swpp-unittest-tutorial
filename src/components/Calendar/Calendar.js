@@ -6,13 +6,13 @@ import './Calendar.css';
 const CALENDAR_HEADER = (
   <Table.Header>
     <Table.Row>
-      <Table.HeaderCell className="sunday">Sun</Table.HeaderCell>
-      <Table.HeaderCell>Mon</Table.HeaderCell>
-      <Table.HeaderCell>Tue</Table.HeaderCell>
-      <Table.HeaderCell>Wed</Table.HeaderCell>
-      <Table.HeaderCell>Thu</Table.HeaderCell>
-      <Table.HeaderCell>Fri</Table.HeaderCell>
-      <Table.HeaderCell>Sat</Table.HeaderCell>
+      <Table.HeaderCell className="sun">Sun</Table.HeaderCell>
+      <Table.HeaderCell className="mon">Mon</Table.HeaderCell>
+      <Table.HeaderCell className="tue">Tue</Table.HeaderCell>
+      <Table.HeaderCell className="wed">Wed</Table.HeaderCell>
+      <Table.HeaderCell className="thu">Thu</Table.HeaderCell>
+      <Table.HeaderCell className="fri">Fri</Table.HeaderCell>
+      <Table.HeaderCell className="sat">Sat</Table.HeaderCell>
     </Table.Row>
   </Table.Header>
 );
